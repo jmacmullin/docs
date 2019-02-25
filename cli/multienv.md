@@ -8,7 +8,14 @@ title: Multienv
 
 # Multiple environments and team workflows
 
-This section outlines how you can manage multiple environments of your Amplify project (backend + frontend) as well as using a project within a team or outside a team using the Amplify CLI & Git. 
+This section outlines how you can manage multiple environments of your Amplify project (backend + frontend) as well as using a project within a team or outside a team using the Amplify CLI & Git.
+
+## Prerequisities
+
+Support for multiple environments has been added to a Beta version of the command line tool. You will need to install the Beta version of the Amplify CLI to use the `env` command mentioned below.
+```
+npm install -g @aws-amplify/cli@multienv
+```
 
 ## Concepts
 
